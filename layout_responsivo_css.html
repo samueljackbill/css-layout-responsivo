@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Layout Responsivo CSS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		<!-- TODOS OS COMANDOS DE ESTILIZAÇÃO (CSS) -->
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #0cdaeb;
+			color: black;
+			text-align: center;
+			padding: 10px 0;
+		}
+		nav {
+			background-color: black;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		main {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		article {
+			flex: 3;
+			padding: 20px;
+		}
+		aside {
+			flex: 1;
+			padding: 20px;
+			background-color: #f4f4f4;
+		}
+		footer {
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- Menu -->
+	<nav>
+		<a href="#">Início</a>
+		<a href="#">Estudo</a>
+		<a href="#">Exercícios</a>
+		<a href="#">Projetos</a>
+	</nav>
+
+	<!-- Cabeçalho -->
+	<header>
+		<h1>Layout Responsivo CSS</h1>
+		<h2>Criar layouts eficazes é uma habilidade crucial para qualquer desenvolvedor web.</h2>	
+	</header>
+
+	<!-- Principal -->
+	<main>
+		<img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/09/design-responsivo-web-768x384.jpg" alt="Imagem 1" width="400" height="300">
+		<img src="https://www.somenek.com.br/fx-files/images/big/12_plgNewsPoster.webp" alt="Imagem 2" width="400" height="300">
+		<img src="https://storage.googleapis.com/dpw/app/uploads/2019/09/9-dicas-basicas-web-design-responsivo-mobile-first.jpg" alt="Imagem 3" width="400" height="300">
+		<img src="https://www.5xperts.ca/wp-content/uploads/2024/03/responsive-web-design-1-61f01c4b64c5f-sej-1170x729.png" alt="Imagem 4" width="400" height="300">
+	</main>
+
+	<!-- Artigo -->
+	<article>
+		<p>Layouts responsivos em CSS são abordagens de design que visam garantir que uma página da web se adapte bem a diferentes tamanhos de tela e dispositivos, como desktops, tablets e smartphones. A ideia principal é permitir que o layout da página seja flexível e possa ser ajustado automaticamente conforme a resolução ou a largura da tela do dispositivo do usuário. Para isso, utiliza-se principalmente as unidades de medida relativas, como porcentagens e unidades viewport (vw, vh), em vez de medidas fixas como pixels. Além disso, as técnicas de CSS, como media queries, são essenciais para alterar o estilo da página de acordo com a largura da tela.</p>
+		<p>Uma das ferramentas mais poderosas para criar layouts responsivos é o uso das media queries no CSS. Essas consultas permitem aplicar regras de estilo diferentes dependendo das características do dispositivo, como a largura da tela, a resolução ou a orientação (paisagem ou retrato). Por exemplo, é possível definir um layout com várias colunas em telas grandes e uma versão de uma única coluna em dispositivos móveis. Isso oferece uma experiência de navegação otimizada para cada tipo de dispositivo, tornando o conteúdo mais acessível e fácil de ler.</p>
+		<p>Além das media queries, o CSS também oferece recursos como Flexbox e Grid, que tornam a criação de layouts responsivos mais simples e intuitiva. O Flexbox permite que os elementos se ajustem automaticamente ao espaço disponível, distribuindo-os de forma eficiente. Já o Grid permite a criação de layouts mais complexos, com linhas e colunas, onde os itens podem ser posicionados de maneira flexível, se adaptando aos diferentes tamanhos de tela. Essas ferramentas são fundamentais para garantir que o design seja não apenas responsivo, mas também elegante e funcional em qualquer dispositivo.</p>
+	</article>
+
+	<!-- Texto Alternativo -->
+	<aside>
+		<p>CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência de páginas web. Ela permite separar a estrutura HTML do design, oferecendo controle sobre elementos como cores, fontes, espaçamentos, layout e animações. Com o CSS, é possível criar designs responsivos, que se adaptam a diferentes tamanhos de tela, melhorando a experiência do usuário. A linguagem utiliza seletores para aplicar regras de estilo a elementos específicos e pode ser combinada com HTML e JavaScript.</p>
+	</aside>
+
+	<!-- Rodapé -->
+	<footer>
+		<p>&copy 2025 - Samuel Pires - Curso de Lógica de Programação para Desenvolvimento Web | <small>Brasil Digital</small></p>
+		<nav>
+			<a href="#">Início</a>
+			<a href="#">Estudo</a>
+			<a href="#">Exercícios</a>
+			<a href="#">Projetos</a>
+		</nav>
+	</footer>   
+</body>
+</html>
